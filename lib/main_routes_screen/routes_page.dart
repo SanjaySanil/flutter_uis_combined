@@ -18,11 +18,11 @@ class RoutesPage extends StatelessWidget {
         backgroundColor: Colors.black,
         title: const Center(
           child: Text(
-            'Sample Flutter Ui',
+            "Flutter Sample Ui's",
           ),
         ),
         titleTextStyle: TextStyle(
-            color: Colors.grey, fontWeight: FontWeight.bold, fontSize: 20),
+            color: Colors.white, fontWeight: FontWeight.bold, fontSize: 23),
       ),
       body: StaggeredGridView.countBuilder(
         padding: EdgeInsets.all(15),
